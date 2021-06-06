@@ -1,4 +1,4 @@
-# Tunnel-Speaker
+# Tunnel-Speaker - Master Thesis
 Implementation &amp; Analysis of a basic Tunnel-Speaker system.
 
 ![](https://github.com/ippokratis91/Tunnel-Speaker/blob/main/images/0001.jpg)
