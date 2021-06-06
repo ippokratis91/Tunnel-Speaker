@@ -1,0 +1,123 @@
+;PROJECT=project
+
+
+;for projects that need to use TUCT v1:
+
+SOURCEDEFS
+
+
+
+; an electro-acoustical source (syntax 1 specifying Gain_a)
+ A1  0.0 100 8.0  Tunnel500dup40.SD0  0.0 0.0 0.0
+ Lp1m_a   = Lp_voice_normal
+ Gain_a   = <20 20 20 20 20 20> ; calculates Lp1m_ea
+ Delay_e  = 0
+
+; an electro-acoustical source (syntax 1 specifying Gain_a)
+ A2  0.0 100 8.0  Tunnel500dup40.SD0  0.0 200 0.0
+ Lp1m_a   = Lp_voice_normal
+ Gain_a   = <20 20 20 20 20 20> ; calculates Lp1m_ea
+ Delay_e  = 0.147
+
+; an electro-acoustical source (syntax 1 specifying Gain_a)
+ A3  0.0 200 8.0  Tunnel500dup40.SD0  0.0 100 0.0
+ Lp1m_a   = Lp_voice_normal
+ Gain_a   = <20 20 20 20 20 20> ; calculates Lp1m_ea
+ Delay_e  = 0.294
+
+; an electro-acoustical source (syntax 1 specifying Gain_a)
+ A4  0.0 200 8.0  Tunnel500dup40.SD0  0.0 300 0.0
+ Lp1m_a   = Lp_voice_normal
+ Gain_a   = <20 20 20 20 20 20> ; calculates Lp1m_ea
+ Delay_e  = 0.441
+
+; an electro-acoustical source (syntax 1 specifying Gain_a)
+ A5  0.0 300 8.0  Tunnel500dup40.SD0  0.0 200 0.0
+ Lp1m_a   = Lp_voice_normal
+ Gain_a   = <20 20 20 20 20 20> ; calculates Lp1m_ea
+ Delay_e  = 0.588
+
+; an electro-acoustical source (syntax 1 specifying Gain_a)
+ A6  0.0 300 8.0  Tunnel500dup40.SD0  0.0 400 0.0
+ Lp1m_a   = Lp_voice_normal
+ Gain_a   = <20 20 20 20 20 20> ; calculates Lp1m_ea
+ Delay_e  = 0.735
+
+; an electro-acoustical source (syntax 1 specifying Gain_a)
+ A7  0.0 400 8.0  Tunnel500dup40.SD0  0.0 300 0.0
+ Lp1m_a   = Lp_voice_normal
+ Gain_a   = <20 20 20 20 20 20> ; calculates Lp1m_ea
+ Delay_e  = 0.882
+
+; an electro-acoustical source (syntax 1 specifying Gain_a)
+ A8  0.0 400 8.0  Tunnel500dup40.SD0  0.0 500 0.0
+ Lp1m_a   = Lp_voice_normal
+ Gain_a   = <20 20 20 20 20 20> ; calculates Lp1m_ea
+ Delay_e  = 1.03
+
+; an electro-acoustical source (syntax 1 specifying Gain_a)
+ A9  0.0 500 8.0  Tunnel500dup40.SD0  0.0 400 0.0
+ Lp1m_a   = Lp_voice_normal
+ Gain_a   = <20 20 20 20 20 20> ; calculates Lp1m_ea
+ Delay_e  = 1.176
+
+; an electro-acoustical source (syntax 1 specifying Gain_a)
+ B0  0.0 500 8.0  Tunnel500dup40.SD0  0.0 600 0.0
+ Lp1m_a   = Lp_voice_normal
+ Gain_a   = <20 20 20 20 20 20> ; calculates Lp1m_ea
+ Delay_e  = 1.32
+
+; an electro-acoustical source (syntax 1 specifying Gain_a)
+ B1  0.0 600 8.0  Tunnel500dup40.SD0  0.0 500 0.0
+ Lp1m_a   = Lp_voice_normal
+ Gain_a   = <20 20 20 20 20 20> ; calculates Lp1m_ea
+ Delay_e  = 1.47
+
+
+; an electro-acoustical source (syntax 1 specifying Gain_a)
+ B2  0.0 600 8.0  Tunnel500dup40.SD0 0.0 700 0.0
+ Lp1m_a   = Lp_voice_normal
+ Gain_a   = <20 20 20 20 20 20> ; calculates Lp1m_ea
+ Delay_e  = 1.62
+
+; an electro-acoustical source (syntax 1 specifying Gain_a)
+ B3  0.0 700 8.0  Tunnel500dup40.SD0  0.0 600 0.0
+ Lp1m_a   = Lp_voice_normal
+ Gain_a   = <20 20 20 20 20 20> ; calculates Lp1m_ea
+ Delay_e  = 1.764
+
+
+; an electro-acoustical source (syntax 1 specifying Gain_a)
+ B4  0.0 700 8.0  Tunnel500dup40.SD0  0.0 800 0.0
+ Lp1m_a   = Lp_voice_normal
+ Gain_a   = <20 20 20 20 20 20> ; calculates Lp1m_ea
+ Delay_e  = 1.911
+
+
+; an electro-acoustical source (syntax 1 specifying Gain_a)
+ B5  0.0 800 8.0  Tunnel500dup40.SD0  0.0 700 0.0
+ Lp1m_a   = Lp_voice_normal
+ Gain_a   = <20 20 20 20 20 20> ; calculates Lp1m_ea
+ Delay_e  = 2.06
+
+
+; an electro-acoustical source (syntax 1 specifying Gain_a)
+ B6  0.0 800 8.0  Tunnel500dup40.SD0  0.0 900 0.0
+ Lp1m_a   = Lp_voice_normal
+ Gain_a   = <20 20 20 20 20 20> ; calculates Lp1m_ea
+ Delay_e  = 2.205
+
+
+; an electro-acoustical source (syntax 1 specifying Gain_a)
+ B7  0.0 900 8.0  Tunnel500dup40.SD0  0.0 800 0.0
+ Lp1m_a   = Lp_voice_normal
+ Gain_a   = <20 20 20 20 20 20> ; calculates Lp1m_ea
+ Delay_e  = 2.352
+
+
+; an electro-acoustical source (syntax 1 specifying Gain_a)
+ B8  0.0 900 8.0  Tunnel500dup40.SD0  0.0 1000 0.0
+ Lp1m_a   = Lp_voice_normal
+ Gain_a   = <20 20 20 20 20 20> ; calculates Lp1m_ea
+ Delay_e  = 2.5
+
